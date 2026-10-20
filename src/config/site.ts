@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/communities/991905923/1-Elo-Chess",
     youtube: "https://www.youtube.com/watch?v=GHg0oyMuQCE",
   },
-  locales: ["en", "es", "pt", "de", "fr", "ja"],
+  locales: ["en", "es", "pt-br", "ja"],
   defaultLocale: "en",
 };
