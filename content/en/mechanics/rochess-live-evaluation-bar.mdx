@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "RoChess Live Evaluation Bar Explained: How to Read the Advantage Meter",
+  description: "Learn how the RoChess live evaluation bar works, how to read centipawn and mate scores, and how to turn every swing into faster chess improvement.",
+  category: "mechanics",
+  date: "2026-10-20",
+}
+
+You are mid-game in RoChess, you just played what felt like a safe developing move, and the little meter beside the board lurches toward your opponent. That moment — the sudden, silent verdict — is exactly why the **RoChess live evaluation bar** matters. Learning to read the **RoChess live evaluation bar** turns a vague sense of "I think I'm okay" into concrete information you can act on, whether you are grinding Bullet, Blitz, or Rapid on the Roblox leaderboards. This guide breaks down what the bar measures, how to interpret its numbers, and how to use it without becoming dependent on it.
+
+## What the RoChess Live Evaluation Bar Actually Measures
+
+RoChess is a Roblox chess game built around rated matches against real people or bots, with puzzles and an accuracy check waiting for you after the game ends. That post-game accuracy number does not appear out of nowhere — it comes from engine-style analysis of the moves you played, and the live bar you watch during the game draws on the same kind of calculation. In short: the bar is a running estimate of who stands better if both sides keep playing reasonably.
+
+The underlying unit is the **centipawn**. One pawn of advantage equals 100 centipawns, which is why you will see scores like +0.40 or -1.20 rather than "a bit ahead" or "quite a bit behind." A positive number usually favors White and a negative number favors Black, though many interfaces let you flip the bar so it always tilts toward *you* — worth checking in your settings if the direction ever feels backwards.
+
+| Bar position | Numeric score | What it means in practice |
+|---|---|---|
+| Dead center | 0.00 | Genuine equality; neither side has a real edge |
+| Slight tilt | ±0.30 to ±0.70 | A small pull — usually activity, space, or a tiny structural plus |
+| Clear tilt | ±1.00 to ±2.00 | Roughly a clean pawn, often enough to be uncomfortable |
+| Heavy tilt | ±3.00 to ±5.00 | A piece is effectively hanging in the evaluation; the defender is in trouble |
+| Nearly full | ±6.00 or more | Practically winning with normal play |
+| Completely full | M4, #4, or similar | A forced checkmate in that many moves |
+
+That last row is the one beginners misread most often. When the bar slams to the edge and shows something like "M3," it is not saying a mate is guaranteed no matter what — it is saying that a forced sequence exists *from this position*. Blunder that sequence and the bar will happily slide back toward the middle.
+
+## How to Read the Bar Move by Move
+
+Reading the bar is a skill, not a glance. The trick is to watch the *change* rather than the absolute value, because a bar that has been sitting at +0.50 for twenty moves is telling you something very different from a bar that just jumped from +0.50 to -2.10 in one move.
+
+1. **Note the baseline.** At move one the bar sits near zero. Check where it stands after the opening so you know what "normal" looks like for this game.
+2. **Watch for jumps, not drift.** Small drifts are normal in any game. A sudden leap of a full pawn or more usually means a tactic was missed or a piece was left loose.
+3. **Check who caused the jump.** If the bar moved on *your* move, that move was the problem. If it moved on your opponent's move, they just handed you something.
+4. **Verify with your own eyes.** The bar tells you that something changed; it never tells you *what*. Look for undefended pieces, overloaded defenders, and back-rank weaknesses.
+5. **Use the post-game report.** After the match, RoChess shows an accuracy figure that pairs with the swings you noticed, so you can find the exact move that tilted the bar.
+
+| Game moment | Typical bar behavior | Best response |
+|---|---|---|
+| Quiet opening | Stays within ±0.30 | Keep developing; do not force anything |
+| You win a clean pawn | Tilts 0.8–1.2 in your favor | Trade pieces, simplify, convert slowly |
+| You leave a knight undefended | Jumps a full pawn or more against you | Stop, re-check every loose piece before moving |
+| Opponent blunders a queen | Slams nearly to the edge | Slow down — conversion errors are the classic comeback route |
+| Both sides trade into a drawn endgame | Drifts back toward center | Accept the draw if the position is genuinely level |
+
+## What Makes the Bar Swing — and What Does Not
+
+Not every bar movement deserves panic. Some swings are noise from the engine's depth, and others are permanent verdicts on the position.
+
+| Cause of a swing | Bar behavior | How much it matters |
+|---|---|---|
+| A piece left hanging | Sharp jump, usually one pawn or more | Very high — this is the classic blunder |
+| A missed tactic (fork, pin, discovered attack) | Jump of 2.00+ | Very high |
+| Trading into a worse endgame | Gradual slide over several moves | High — hard to reverse |
+| Engine re-evaluating a complex middlegame | Small wobble in the ±0.20 range | Low — often just depth |
+| Playing a slightly passive but safe move | Drift of 0.10–0.40 | Moderate — matters more at high level |
+| Time trouble (playing fast, no calculation) | Repeated small dips | Cumulative — accuracy drops fast |
+
+Community reports from Roblox chess players suggest that the largest single-move swings almost always come from time pressure rather than from a lack of chess knowledge. That matches what most players see in their own accuracy scores: the moves that cost the most are rarely the hardest ones to find, they are the ones you did not give yourself time to check.
+
+## Turning the Bar Into Better Play
+
+### Use it as a blunder alarm, not a crutch
+
+The healthiest way to use the **RoChess live evaluation bar** is as a warning light. When it lurches, treat that as a cue to slow down and re-scan the board before your next move — not as a hint about which move to play. Players who stare at the bar instead of the pieces tend to stop calculating entirely, and their accuracy scores actually fall over time.
+
+### Pair the bar with your accuracy report
+
+RoChess shows your accuracy after each game, and that number is the bar's long-lost twin. A game where the bar wobbled five times but your accuracy stayed high means you survived the wobbles. A game where the bar stayed flat but your accuracy was poor means you were making lots of small, quiet errors that never triggered a big swing. Reviewing both together is far more useful than reviewing either alone.
+
+### Build a practice loop around swings
+
+| Step | What to do | Time per session |
+|---|---|---|
+| 1 | Play one rated game at a comfortable time control | 10–15 min |
+| 2 | Note every moment the bar moved sharply | 2 min |
+| 3 | Replay those moves and find the better option yourself | 10 min |
+| 4 | Solve 5–10 puzzles themed around the mistake type | 10 min |
+| 5 | Play one more game and try to keep the bar within ±1.00 | 10–15 min |
+
+This loop works because it converts a passive observation into an active habit. If your swings come from missed forks, the puzzle block should be forks. If they come from loose pieces in the middlegame, the puzzle block should be hanging-piece and defensive-move puzzles.
+
+### Understand the bar's blind spots
+
+The evaluation bar has no idea what *you* can actually play. A +4.00 position with a fifteen-move forced conversion is worth less to a beginner than a +0.60 position with simple, obvious plans. It also does not account for time — a winning position with eight seconds left on the clock is not really winning. Treat the number as a description of the board, never as a prediction of the result.
+
+For background on how engines convert positions into these numbers, the Wikipedia entry on [how chess engines calculate an evaluation](https://en.wikipedia.org/wiki/Chess_engine) is a solid, jargon-light starting point.
+
+## RoChess Live Evaluation Bar vs. Other Feedback Tools
+
+RoChess gives you several different kinds of feedback, and each one answers a different question. Mixing them up is the source of most confusion.
+
+| Feedback tool | Question it answers | When it appears | Best used for |
+|---|---|---|---|
+| Live evaluation bar | Who is better right now, and by how much? | During the game | Spotting turning points in real time |
+| Captured material | Who has more pieces? | During the game | Quick sanity checks on trades |
+| Accuracy score | How precise were my moves overall? | After the game | Measuring long-term improvement |
+| Puzzle results | Can I spot patterns under pressure? | In puzzle mode | Targeted pattern training |
+| Leaderboard rating | How am I doing against the player pool? | Across games | Tracking progress over weeks |
+
+A useful rule of thumb: use the bar to *notice*, the material count to *verify*, and the accuracy score to *learn*. If those three ever disagree sharply, trust the accuracy score — it is calculated with full information, while the bar is a snapshot in the middle of a fight.
+
+## Common Mistakes Players Make With the Bar
+
+- **Chasing the number instead of the plan.** Flipping between "winning" and "losing" every move means you have no plan at all.
+- **Panicking over tiny drifts.** A bar that moves from +0.20 to -0.15 is not a crisis; it is two players shuffling.
+- **Assuming a full bar means the game is over.** Forced mates require forced moves. Miss one and the bar resets.
+- **Ignoring the bar when it favors you.** The most common way to lose a winning RoChess game is to stop calculating once the bar looks comfortable.
+- **Never reviewing the swings.** The bar is only useful if you go back afterward and find out what actually happened.
+
+## FAQ
+
+**Does the RoChess live evaluation bar show the best move?**
+
+No. It shows an assessment of the position, not a recommendation. You still have to find the move yourself, which is exactly what makes it a training tool rather than a cheat sheet.
+
+**Why does the RoChess live evaluation bar change after I already moved?**
+
+Because the evaluation reflects the new position on the board. If the bar swings on your move, that move created the problem — even if the tactic only becomes obvious on your opponent's next turn.
+
+**What does a score like +2.00 actually mean?**
+
+It means one side is roughly the equivalent of a clean pawn ahead according to the engine's analysis. At that margin, most players are winning with careful play, but not so far ahead that the game plays itself.
+
+**Can I improve my rating just by watching the bar?**
+
+Watching it helps you notice turning points, but the improvement comes from reviewing those turning points afterward. Players who pair bar-watching with the post-game accuracy report and a short puzzle routine generally climb faster than players who only watch the meter during play.
+
+Mastering the **RoChess live evaluation bar** is really about mastering your own attention: notice the swing, pause, calculate, and then go back and learn from it. Do that consistently and the bar stops being a source of anxiety and starts being the fastest feedback loop you have.

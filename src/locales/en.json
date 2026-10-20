@@ -6,7 +6,17 @@
     "description": "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.",
     "legalNotice": "Non-official fan wiki. Made by players, for players. Not affiliated with Roblox or 1 Elo Chess."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "mechanics": "Mechanics",
+    "controls": "Controls",
+    "modes": "Modes",
+    "community": "Community",
+    "tips": "Tips",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "RoChess Wiki - Puzzles, Openings & Chess Strategy",
@@ -24,7 +34,7 @@
       ],
       "primaryCta": "Play RoChess on Roblox",
       "secondaryCta": "Beginner Guide",
-      "tertiaryCta": "Puzzle & Opening Guides",
+      "tertiaryCta": "Game Modes & Puzzles",
       "videoLabel": "RoChess gameplay showcase"
     },
     "updates": {
@@ -425,7 +435,34 @@
       "secondary": "Play RoChess on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "RoChess Beginner Guides",
+    "overviewDescription": "Learn how RoChess works with beginner walkthroughs covering time controls, Tokens, puzzles, openings, and the fastest route from your first match to a rated win."
+  },
+  "codes": {
+    "overviewTitle": "RoChess Codes",
+    "overviewDescription": "Find working RoChess codes, learn where to redeem them in the Shop, and track active Token rewards for extra puzzles and bot practice."
+  },
+  "mechanics": {
+    "overviewTitle": "RoChess Mechanics",
+    "overviewDescription": "Understand the bots, Stockfish engine, live evaluation bar, Instant Rush, and rating systems that shape every RoChess match."
+  },
+  "controls": {
+    "overviewTitle": "RoChess Controls",
+    "overviewDescription": "Master RoChess controls on PC, mobile, and console with clear move-input, camera, and board navigation guides."
+  },
+  "modes": {
+    "overviewTitle": "RoChess Game Modes",
+    "overviewDescription": "Compare ranked, multiplayer, practice, and puzzle modes, including time controls and the best mode for every type of player."
+  },
+  "community": {
+    "overviewTitle": "RoChess Community",
+    "overviewDescription": "Follow RoChess updates, new features, Discord and Reddit discussions, and the community resources that keep the game moving."
+  },
+  "tips": {
+    "overviewTitle": "RoChess Strategy Tips",
+    "overviewDescription": "Improve your RoChess rating with practical advice on avoiding blunders, checkmate tactics, endgames, and winning strategies."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -454,11 +491,11 @@
     "playGame": "Play RoChess on Roblox",
     "officialDiscord": "RoChess Community Group",
     "officialYoutube": "RoChess Gameplay Video",
-    "vvBuilder": "Opening & Tactics Guides",
+    "openingGuides": "Opening & Tactics Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "gameModes": "Game Modes",
+    "mechanicsGuides": "Bot & Mechanics",
+    "strategyTips": "Strategy Tips",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

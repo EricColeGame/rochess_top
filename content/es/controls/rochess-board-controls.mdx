@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Controles del tablero de RoChess: cómo mover piezas, rotar la cámara y jugar mejor al ajedrez",
+  description: "Domina los controles del tablero de RoChess en Roblox: selecciona y mueve piezas, ajusta la cámara, soluciona problemas de entrada y juega más rápido en PC y móvil.",
+  category: "controls",
+  date: "2026-10-20",
+}
+
+## Por qué los controles del tablero de RoChess deciden más partidas que las aperturas
+
+Perder una partida de ajedrez clasificatoria porque tu pulgar cayó en la casilla equivocada es una de las cosas más frustrantes que pueden pasar en una partida de ajedrez de Roblox. Los **controles del tablero de RoChess** son toda la interfaz entre tu cerebro y las sesenta y cuatro casillas que tienes delante: si los usas mal, una posición ganadora se convierte silenciosamente en una rendición. En esta guía aprenderás cómo funcionan los **controles del tablero de RoChess** en escritorio y móvil, cómo mover piezas con precisión bajo presión de tiempo, cómo arreglar una cámara que se niega a cooperar y cómo desarrollar la memoria muscular que separa a un jugador con 900 de Elo de uno con 1400.
+
+RoChess, desarrollado por 1 Elo Chess, se basa en partidas clasificatorias contra personas reales o bots, múltiples controles de tiempo, puzles tácticos y un informe de precisión posterior a la partida. Nada de eso importa si no puedes colocar un caballo de forma fiable donde quieres, así que trata los controles como una habilidad que vale la pena practicar por sí sola.
+
+## Los controles del tablero de RoChess de un vistazo
+
+El esquema de control sigue las convenciones de entrada estándar de Roblox: un puntero en escritorio y entrada táctil en móvil. Los informes de la comunidad y la experiencia de los jugadores describen de forma consistente las mismas interacciones básicas, resumidas a continuación.
+
+| Acción | Escritorio (PC / Mac) | Móvil (teléfono / tableta) |
+|---|---|---|
+| Seleccionar una pieza | Clic izquierdo en la pieza | Toca la pieza |
+| Mover a una casilla | Clic izquierdo en la casilla de destino | Toca la casilla de destino |
+| Cancelar una selección | Haz clic de nuevo en la pieza o en una casilla vacía | Toca de nuevo la pieza |
+| Rotar la cámara | Mantén pulsado el botón derecho del ratón y arrastra | Arrastra con un dedo sobre un espacio vacío |
+| Acercar / alejar | Rueda de desplazamiento | Pellizca con dos dedos |
+| Abrir menús (Tienda, Códigos, Puzles) | Haz clic en los botones en pantalla | Toca los botones en pantalla |
+| Confirmar una promoción | Haz clic en el icono de la pieza en el aviso | Toca el icono de la pieza en el aviso |
+
+Dos hábitos importan más que cualquier entrada individual. Primero, **espera siempre a que aparezca el resaltado de movimientos legales** antes de confirmar: el juego te muestra adónde puede ir legalmente una pieza seleccionada, y ese resaltado es tu mejor defensa contra un toque equivocado. Segundo, **nunca arrastres la cámara mientras hay una pieza seleccionada**, porque un arrastre accidental puede interpretarse como una cancelación o enviar tu toque a otra casilla.
+
+## Escritorio vs. móvil: cómo se comparan los dos esquemas de control
+
+RoChess se ejecuta en el mismo motor de Roblox en todas partes, pero la sensación del tablero cambia drásticamente entre un ratón y una pantalla táctil. Así se comparan las dos experiencias.
+
+| Factor | Escritorio | Móvil |
+|---|---|---|
+| Precisión del puntero | Alta — cursor de un solo píxel | Menor — la yema del dedo cubre una casilla |
+| Manejo de la cámara | Arrastre con botón derecho más zoom con rueda | Arrastre con un dedo más zoom con pellizco |
+| Riesgo de clic erróneo | Bajo, sobre todo arrastres accidentales | Mayor, especialmente en pantallas pequeñas |
+| Techo de velocidad | Ideal para Bullet y Blitz | Ideal para Rapid, puzles y análisis |
+| Configuración ideal | Ventana a pantalla completa, ratón | Orientación horizontal, tablero ampliado |
+
+Si juegas en un teléfono, girar a horizontal y ampliar hasta que aproximadamente la mitad del tablero llene la pantalla es la mejora más importante que puedes hacer en tus **controles del tablero de RoChess**. Pierdes de vista la fila más lejana, pero ganas suficiente precisión al tocar como para dejar de perder piezas por pulsaciones accidentales.
+
+## Paso a paso: cómo usar los controles del tablero de RoChess en tu primera partida
+
+Los jugadores nuevos suelen perder su primera partida clasificatoria por la interfaz, no por el oponente. Sigue esta secuencia una vez y el tablero dejará de ponerte obstáculos.
+
+1. **Entra y abre el emparejamiento.** Desde el menú principal, elige un modo: partida clasificatoria, práctica contra bots o puzles.
+2. **Elige un control de tiempo.** Los principiantes deberían empezar con Rapid; Bullet castiga a cualquiera que aún esté aprendiendo dónde están las casillas.
+3. **Centra la cámara.** Antes del primer movimiento, ajusta el zoom para que se vea todo el tablero y luego acércalo un poco en móvil.
+4. **Selecciona tu pieza.** Haz clic o toca la pieza y confirma que aparecen los puntos de movimientos legales.
+5. **Mueve.** Haz clic o toca la casilla de destino y observa la animación de la pieza; no toques una segunda vez mientras se está moviendo.
+6. **Gestiona las promociones.** Cuando un peón llega a la última fila, aparece un aviso para elegir pieza; selecciona tu pieza para completar el movimiento.
+7. **Revisa después de la partida.** La pantalla posterior a la partida muestra tu precisión y la lista de movimientos, donde detectarás los errores relacionados con los controles.
+
+| Comprobación de control | Cómo se ve cuando va bien | Qué indica |
+|---|---|---|
+| Resaltado de selección | Aparecen puntos o casillas tintadas al instante | La entrada se registró correctamente |
+| Confirmación de movimiento | La pieza se anima y el reloj cambia | El servidor aceptó el movimiento |
+| Estabilidad de la cámara | El tablero permanece quieto durante los toques | No hay arrastres accidentales |
+| Aviso de promoción | El selector de pieza aparece sin retraso | El movimiento llegó a la última fila |
+
+## Leer el tablero: señales de retroalimentación que funcionan como controles
+
+La retroalimentación visual en RoChess funciona como un segundo conjunto de controles, indicándote lo que el juego ha entendido. Aprender a leer estas señales es tan importante como hacer clic con precisión.
+
+- **Los resaltados de movimientos legales** confirman que una pieza está seleccionada y muestran todos los destinos que permiten las reglas.
+- **Los indicadores del último movimiento** marcan la jugada anterior del oponente para que puedas reaccionar sin escanear todo el tablero.
+- **Los avisos de jaque** aparecen cuando tu rey está atacado, lo que es tu señal para abandonar cualquier movimiento planeado y reevaluar.
+- **Los relojes** están junto a cada jugador; en móvil, mantén el tablero ampliado para que el reloj siga visible.
+
+Si una pieza se niega a moverse y no aparecen resaltados, el problema casi nunca son los **controles del tablero de RoChess**: o no es tu turno, o el movimiento es ilegal, o el servidor aún no ha procesado el movimiento anterior.
+
+## Solución de problemas comunes con los controles del tablero de RoChess
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| La pieza no se mueve en absoluto | No es tu turno o el destino es ilegal | Revisa el indicador de turno y los puntos de movimientos legales |
+| El toque cae en la casilla equivocada | El tablero está demasiado alejado en móvil | Pellizca para ampliar, juega en horizontal |
+| La cámara gira a mitad de movimiento | El dedo se arrastró por el tablero | Arrastra solo desde un espacio vacío, nunca sobre una pieza |
+| El movimiento no se completa | El selector de promoción está esperando | Selecciona una pieza en el aviso |
+| Las entradas parecen retrasadas | Latencia de conexión o ajustes gráficos pesados | Baja la calidad gráfica de Roblox, cierra apps en segundo plano |
+| La selección se cancela sola | Doble clic o doble toque | Selecciona una vez y luego toca el destino una vez |
+
+La mayoría de estos casos se reducen a un principio: **una entrada por intención**. Haz clic en la pieza y luego en la casilla. Los jugadores que tocan en ráfaga durante las partidas Bullet son los que acaban preguntando por qué el tablero los «ignora».
+
+## Cámara y vista del tablero: los controles que nadie practica
+
+La gestión de la cámara es la parte más subestimada de los **controles del tablero de RoChess**. En escritorio, mantener pulsado el botón derecho del ratón y arrastrar rota tu vista, mientras que la rueda de desplazamiento hace zoom; en móvil, un arrastre con un dedo sobre un espacio vacío orbita la cámara y un pellizco hace zoom.
+
+Tres hábitos mantienen la vista bajo control:
+
+- **Restablece tu ángulo al inicio de cada partida.** Una vista cenital ligeramente inclinada hace que las filas y columnas sean más fáciles de leer que un ángulo cinematográfico bajo.
+- **Nunca rotes bajo presión de tiempo.** Los arrastres de cámara cuestan segundos valiosos en Bullet y Blitz, y un tablero rotado hace más difícil juzgar los movimientos en diagonal.
+- **Aleja el zoom en los puzles y acércalo en las partidas.** Los puzles recompensan ver toda la posición; las partidas en vivo recompensan la precisión al tocar.
+
+Si la cámara parece atascada, arrastrar desde un área fuera del tablero —la mesa o el fondo que lo rodea— suele liberarla. La experiencia de los jugadores sugiere que esta es la solución más rápida cuando la vista se niega a rotar.
+
+## Controles de tiempo, tokens y práctica: sacar más partido al tablero
+
+Mejores **controles del tablero de RoChess** se traducen directamente en un juego más rápido, y un juego más rápido desbloquea los controles de tiempo más veloces.
+
+| Control de tiempo | Ritmo | Consejo de control |
+|---|---|---|
+| Bullet | Muy rápido, segundos por partida | Preselecciona movimientos obvios, mantén la cámara fija |
+| Blitz | Rápido, unos minutos por bando | Usa los puntos de movimientos legales en lugar de comprobar manualmente una y otra vez |
+| Rapid | Más lento, cómodo para aprender | Practica secuencias completas sin ajustar la cámara |
+
+Los tokens son la moneda del juego que se usa para seguir practicando contra bots y sumergirte en más puzles, que es exactamente cómo desarrollas fluidez con los controles sin arriesgar puntos de clasificación. Según la información de [la página de códigos de RoChess de Game Rant](https://gamerant.com/rochess-codes-roblox/), los siguientes códigos figuraban como activos en octubre de 2026. Los códigos cambian periódicamente, así que verifícalos en el juego antes de asumir que siguen funcionando.
+
+| Código | Recompensa | Estado |
+|---|---|---|
+| SOYSLOPGAMES | 3 tokens | Reportado como activo |
+| CORDCODE | 5 tokens | Reportado como activo |
+| 1000LIKES | 10 tokens | Reportado como activo |
+
+Para canjearlos, abre RoChess, ve a la **Tienda** desde el menú principal, cambia a la pestaña **Códigos**, pega el código y pulsa Canjear. Los tokens deberían aparecer de inmediato. Para todo lo demás sobre la plataforma en sí, el [sitio oficial de Roblox](https://www.roblox.com/) es la referencia autorizada sobre cuentas, dispositivos y controles parentales.
+
+## Preguntas frecuentes
+
+**¿Cómo muevo una pieza usando los controles del tablero de RoChess?**
+Haz clic o toca la pieza para seleccionarla, espera a que aparezcan los resaltados de movimientos legales y luego haz clic o toca la casilla de destino. La pieza se anima hasta su nueva casilla y el reloj cambia a tu oponente. Si no pasa nada, el movimiento era ilegal o no es tu turno.
+
+**¿Puedo reasignar o cambiar los controles del tablero de RoChess?**
+No hay un menú de reasignación ampliamente reportado en RoChess, así que la mayoría de los jugadores usan el esquema predeterminado de clic y toque de Roblox. En escritorio aún puedes usar las entradas estándar de cámara de Roblox, y en móvil la cámara responde a arrastres y pellizcos.
+
+**¿Por qué mi cámara sigue girando mientras juego?**
+Probablemente estés arrastrando un dedo o el botón derecho del ratón por el tablero mientras intentas seleccionar una pieza. Arrastra solo desde un espacio vacío fuera de las casillas y restablece tu ángulo de visión al inicio de cada partida.
+
+**¿Los controles del tablero de RoChess funcionan igual en móvil y PC?**
+La lógica es idéntica —seleccionar y luego confirmar—, pero las entradas difieren. En escritorio se usa el clic izquierdo para mover y el arrastre con botón derecho para la cámara; en móvil se usan toques para mover y arrastres con un dedo más pellizcos para la cámara. Dominar los **controles del tablero de RoChess** en un dispositivo hace que el otro sea mucho más fácil de aprender.
