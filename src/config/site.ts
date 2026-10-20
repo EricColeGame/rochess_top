@@ -19,15 +19,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "RoChess Wiki",
+  shortName: "RoChess",
+  logoText: "R",
+  tagline: "Chess Guides, Openings, Puzzles & Strategy",
+  description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, and move analysis. Learn tactics, improve accuracy, and climb the leaderboards.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://rochess.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://rochess.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.roblox.com/games/139717576471404/RoChess",
+  heroVideoId: "GHg0oyMuQCE",
   social: {
     discord: "https://discord.gg/roblox",
     youtube: "https://www.youtube.com/@roblox",
