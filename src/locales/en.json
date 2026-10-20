@@ -39,101 +39,101 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the first-session routine, choose a time control, bank your Tokens, and build a practice loop that supports steady rating gains."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "All Codes",
+          "description": "Redeem every working RoChess code for free Tokens, then spend them on puzzles and bot games before you enter rated play."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Opening Guide",
+          "description": "Use 1.e4, 1.d4, the London System, and sound Black replies to build a reliable plan for the first eight moves."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in RoChess."
+          "title": "Puzzle Training",
+          "description": "Train checks, captures, forks, pins, and checkmate patterns with more than 1,300 rated RoChess puzzles."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending RoChess Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "RoChess Codes",
+        "Opening Moves",
+        "Puzzle Training"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "RoChess Beginner Guide",
+          "description": "Learn the first-session routine, time controls, Tokens, puzzles, and the habits that build a stable rating.",
+          "href": "/guide/rochess-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "RoChess Codes",
+          "description": "Redeem SOYSLOPGAMES, CORDCODE, and 1000LIKES for 18 Tokens, then spend them on practice.",
+          "href": "/codes/rochess-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Best Opening Moves",
+          "description": "Build a reliable first eight moves with 1.e4, 1.d4, the London System, and sound Black replies.",
+          "href": "/guide/rochess-best-opening-moves"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "RoChess Puzzle Guide",
+          "description": "Use a repeatable solving checklist for checks, captures, forks, pins, and checkmate patterns.",
+          "href": "/guide/rochess-puzzle-guide"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Guide",
+          "title": "How to Beat Hard Bots",
+          "description": "Move through Beginner, Intermediate, Advanced, Expert, and Master bots without skipping fundamentals.",
+          "href": "/guide/rochess-how-to-beat-hard-bots"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Modes",
+          "title": "RoChess Game Modes",
+          "description": "Compare rated play, bot practice, puzzles, Bullet, Blitz, and Rapid before your next session.",
+          "href": "/modes/rochess-game-modes"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Review",
+          "title": "Live Evaluation Bar",
+          "description": "Read evaluation swings as a blunder alarm and pair them with your post-game accuracy report.",
+          "href": "/mechanics/rochess-live-evaluation-bar"
+        },
+        {
+          "badge": "Ranked",
+          "title": "Ranked Mode Guide",
+          "description": "Understand rating changes, matchmaking, fair play, time controls, and the habits that climb.",
+          "href": "/modes/rochess-ranked-mode"
+        },
+        {
+          "badge": "Strategy",
+          "title": "Winning Strategies",
+          "description": "Plan the opening, middlegame, endgame, and clock discipline that decide RoChess matches.",
+          "href": "/tips/rochess-winning-strategies"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is RoChess?",
+      "title": "What Is RoChess?",
       "paragraphs": [
-        "RoChess is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "RoChess is a competitive online chess game on Roblox built by 1 Elo Chess. It combines rated matches against real players and 19 AI opponents with nine time controls, more than 1,300 rated puzzles, and recognition for over 3,800 openings.",
+        "Every match follows standard chess rules and ends with an accuracy review that highlights strong moves, mistakes, and blunders. Use the guides to choose a time control, drill openings and tactics, and turn each game into a clear next step."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "1 Elo Chess"
         },
         {
           "label": "Platform",
@@ -141,186 +141,280 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Competitive Chess"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "3M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "AI Opponents",
+          "value": "19"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Rated Puzzles",
+          "value": "1,300+"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Recognized Openings",
+          "value": "3,800+"
+        },
+        {
+          "label": "Time Controls",
+          "value": "9"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore RoChess Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore RoChess Guides",
+      "description": "Dive into beginner steps, working codes, bot tiers, game modes, openings, puzzles, game review, and leaderboards.",
       "modules": [
         {
           "order": 1,
-          "name": "RoChess Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/rochess-codes",
-          "displayType": "code-box",
+          "name": "RoChess Beginner Guide",
+          "description": "Learn how to start playing RoChess, choose an easy bot, understand chess piece movement, and improve through practice. Follow a gradual path from the basic rules and essential tactics to stronger opponents.",
+          "href": "/guide/rochess-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Finish the tutorial and open the Shop to find the Codes section."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Redeem every working code before spending Tokens on practice."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Play two or three bot games to learn the board and clock."
+            },
+            {
+              "label": "4",
+              "detail": "Solve a short puzzle set to warm up tactical vision."
+            },
+            {
+              "label": "5",
+              "detail": "Start rated play with a slower Rapid-style control."
+            },
+            {
+              "label": "6",
+              "detail": "Review your accuracy and note one recurring mistake."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/rochess-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "RoChess Codes",
+          "description": "Check the current RoChess redeem codes and learn exactly where to enter them. The working list separates each code by its Token reward so you can claim the full batch before a session.",
+          "href": "/codes/rochess-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "SOYSLOPGAMES",
+              "detail": "3 Tokens from a recent community milestone code"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "CORDCODE",
+              "detail": "5 Tokens from a mid-tier reward code"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "1000LIKES",
+              "detail": "10 Tokens, the best single-code value on the list"
+            },
+            {
+              "label": "Shop",
+              "detail": "Redeem codes in the Shop under the Codes section"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/rochess-tier-list",
+          "name": "RoChess Bots Guide",
+          "description": "Compare the 19 RoChess bots across Beginner, Intermediate, Advanced, Expert, and Master tiers. Use the ladder to learn piece safety, develop a plan, and build calculation without risking rating.",
+          "href": "/mechanics/rochess-chess-bot",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Master bots demand precise openings, deep calculation, and clean endgame conversion."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Expert bots punish passive pieces and weak endgame technique."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Advanced bots punish one-move tactical oversights."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Beginner and Intermediate bots teach piece safety, development, and center control."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/rochess-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "RoChess Game Modes",
+          "description": "Compare the nine RoChess time controls, rated matches, bot practice, and puzzle mode. Choose a pace that gives you enough time to calculate or sharpens the reflexes you want to train.",
+          "href": "/modes/rochess-game-modes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Bullet",
+              "detail": "Fastest control for pattern recall, premoves, and flagging awareness"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Blitz",
+              "detail": "Fast middle ground for quick calculation and time management"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Rapid",
+              "detail": "Deliberate play for openings, plans, and endgame technique"
+            },
+            {
+              "label": "Puzzles",
+              "detail": "Untimed tactical training with more than 1,300 rated positions"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/rochess-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "RoChess Opening Guide",
+          "description": "Learn the principles behind the RoChess best opening moves and how the game recognizes more than 3,800 openings. Cover center control, piece development, king safety, and common traps.",
+          "href": "/guide/rochess-best-opening-moves",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Center",
+              "detail": "Control central squares early with pawns and pieces."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Develop",
+              "detail": "Bring knights and bishops out before launching an attack."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Castle",
+              "detail": "Protect the king and connect the rooks in the opening."
+            },
+            {
+              "label": "Traps",
+              "detail": "Know common opening traps and avoid chasing early tactics."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/rochess-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "RoChess Puzzle Guide",
+          "description": "Use the RoChess puzzle collection to practice tactical patterns and sharpen calculation. Build a repeatable solving checklist around checks, captures, forks, pins, skewers, and mating nets.",
+          "href": "/guide/rochess-puzzle-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Mates",
+              "detail": "Practice checkmate patterns and count every escape square."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Forks",
+              "detail": "Look for checks that attack two pieces at once."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Pins",
+              "detail": "Use line pieces to freeze valuable defenders."
+            },
+            {
+              "label": "Skewers",
+              "detail": "Attack a valuable piece and win the piece behind it."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "RoChess Game Review",
+          "description": "Turn every completed match into a lesson with the RoChess accuracy report and live evaluation bar. Identify strong moves, mistakes, and blunders, then choose one fix for the next session.",
+          "href": "/mechanics/rochess-live-evaluation-bar",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Open the post-game accuracy report before starting another match."
+            },
+            {
+              "label": "2",
+              "detail": "Check the opening phase to see whether your first plan held up."
+            },
+            {
+              "label": "3",
+              "detail": "Review middlegame swings and identify missed forcing moves."
+            },
+            {
+              "label": "4",
+              "detail": "Find endgame blunders and practice converting winning positions."
+            },
+            {
+              "label": "5",
+              "detail": "Save one recurring mistake as the focus for your next session."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "RoChess Leaderboards",
+          "description": "Track the Bullet, Blitz, Rapid, and Puzzle leaderboards and use each ranking to measure a different skill. Build a routine that turns rating changes into useful feedback instead of guesswork.",
+          "href": "/modes/rochess-ranked-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bullet",
+              "detail": "The fastest ladder rewards pattern recall and flagging technique."
+            },
+            {
+              "label": "Blitz",
+              "detail": "The balanced ladder tests quick calculation and time management."
+            },
+            {
+              "label": "Rapid",
+              "detail": "The slower ladder rewards calculation depth, openings, and endgames."
+            },
+            {
+              "label": "Puzzles",
+              "detail": "The solo ranking measures tactical vision and pattern recognition."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about RoChess.",
+      "title": "RoChess FAQ",
+      "description": "Straight answers about RoChess time controls, codes, bots, puzzles, and game review.",
       "items": [
         {
           "question": "What is RoChess?",
-          "answer": "RoChess is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "RoChess is a competitive online chess game on Roblox built by 1 Elo Chess. It offers rated matches against players and 19 AI opponents, nine time controls, more than 1,300 rated puzzles, and recognition for over 3,800 openings."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is RoChess free to play?",
+          "answer": "Yes. Rated games, bot practice, and puzzles are available without spending Robux. Optional gamepasses add conveniences such as expanded game review, VIP access, or additional bots."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which RoChess time control should beginners use?",
+          "answer": "Start with Rapid. The slower clock gives you time to check captures, threats, and king safety; move to Blitz after your accuracy becomes consistent, and treat Bullet as a short reflex drill."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do RoChess codes work?",
+          "answer": "Open the Shop, switch to the Codes section, and enter each code exactly as written. Current codes are SOYSLOPGAMES for 3 Tokens, CORDCODE for 5 Tokens, and 1000LIKES for 10 Tokens."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What can I practice against RoChess bots?",
+          "answer": "RoChess includes 19 bots across Beginner, Intermediate, Advanced, Expert, and Master tiers. Use the easiest tiers to learn piece safety, then move up only when you win consistently without hanging material."
+        },
+        {
+          "question": "How does game review work in RoChess?",
+          "answer": "After a match, RoChess shows an accuracy score and analysis that highlights strong moves, mistakes, and blunders. Use the live evaluation bar during play to notice swings, then review those positions afterward."
+        },
+        {
+          "question": "Do RoChess codes expire?",
+          "answer": "Codes can expire quietly as milestones and events end. Redeem new codes soon after they appear and check the Codes page for the current working list."
         }
       ]
     },
