@@ -25,12 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     metadataBase: new URL(siteUrl),
     applicationName: "RoChess Wiki",
-    title: { default: "RoChess Wiki - Puzzles, Openings & Chess Strategy", template: "%s" },
-    description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, and move analysis. Learn tactics, improve accuracy, and climb the leaderboards.",
+    title: { default: "RoChess Wiki", template: "%s" },
+    description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.",
     manifest: "/manifest.json",
     icons: { icon: [{ url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" }, { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }], apple: "/apple-touch-icon.png" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "RoChess Wiki", description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.", images: [{ url: image, width: 1280, height: 720, alt: "RoChess Wiki" }] },
+    twitter: { card: "summary_large_image", title: "RoChess Wiki", description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -43,6 +43,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
     name: siteConfig.name,
     url: siteUrl,
     logo: `${siteUrl}/android-chrome-512x512.png`,
