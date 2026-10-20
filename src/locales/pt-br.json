@@ -1,1 +1,508 @@
-{}
+{
+  "site": {
+    "name": "RoChess Wiki",
+    "shortName": "RoChess",
+    "tagline": "Guias, aberturas, quebra-cabeças e estratégia de xadrez",
+    "description": "Explore os guias do RoChess sobre quebra-cabeças de xadrez, estratégias de abertura, oponentes de IA, partidas ranqueadas, análise de lances e dicas para iniciantes. Melhore suas habilidades e suba nas classificações.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores. Não é afiliada à Roblox nem à 1 Elo Chess."
+  },
+  "nav": {
+    "guide": "Guia",
+    "codes": "Códigos",
+    "mechanics": "Mecânicas",
+    "controls": "Controles",
+    "modes": "Modos",
+    "community": "Comunidade",
+    "tips": "Dicas",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "RoChess Wiki: quebra-cabeças, aberturas e estratégia de xadrez",
+      "description": "Explore os guias do RoChess sobre quebra-cabeças de xadrez, estratégias de abertura, oponentes de IA, partidas ranqueadas, análise de lances e dicas para iniciantes. Melhore suas habilidades e suba nas classificações."
+    },
+    "hero": {
+      "eyebrow": "Wiki comunitária de fãs",
+      "title": "RoChess Wiki",
+      "description": "Explore os guias do RoChess sobre partidas ranqueadas, estratégias de abertura, quebra-cabeças de xadrez, oponentes de IA, análise de lances e dicas para iniciantes. Aprenda as regras, melhore sua precisão e suba nas classificações.",
+      "stats": [
+        "Mais de 3 M de visitas",
+        "Mais de 1.300 quebra-cabeças ranqueados",
+        "19 oponentes de IA",
+        "Mais de 3.800 aberturas reconhecidas"
+      ],
+      "primaryCta": "Jogar RoChess no Roblox",
+      "secondaryCta": "Guia para iniciantes",
+      "tertiaryCta": "Modos de jogo e quebra-cabeças",
+      "videoLabel": "Demonstração de jogo do RoChess"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada no RoChess",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda a rotina da primeira sessão, escolha um controle de tempo, acumule Tokens e crie um ciclo de prática que favoreça ganhos constantes de classificação."
+        },
+        {
+          "number": "2",
+          "title": "Todos os códigos",
+          "description": "Resgate todos os códigos ativos do RoChess para ganhar Tokens grátis e use-os em quebra-cabeças e partidas contra bots antes de entrar no jogo ranqueado."
+        },
+        {
+          "number": "3",
+          "title": "Guia de aberturas",
+          "description": "Use 1.e4, 1.d4, o Sistema Londres e respostas sólidas com as pretas para construir um plano confiável nos primeiros oito lances."
+        },
+        {
+          "number": "4",
+          "title": "Treino com quebra-cabeças",
+          "description": "Treine xeques, capturas, garfos, cravadas e padrões de mate com mais de 1.300 quebra-cabeças ranqueados do RoChess."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guias do RoChess em alta",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Códigos do RoChess",
+        "Lances de abertura",
+        "Treino com quebra-cabeças"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia do RoChess para iniciantes",
+          "description": "Aprenda a rotina da primeira sessão, os controles de tempo, os Tokens, os quebra-cabeças e os hábitos que constroem uma classificação estável.",
+          "href": "/guide/rochess-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Códigos do RoChess",
+          "description": "Resgate SOYSLOPGAMES, CORDCODE e 1000LIKES para receber 18 Tokens e use-os para praticar.",
+          "href": "/codes/rochess-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Melhores lances de abertura",
+          "description": "Construa primeiros oito lances confiáveis com 1.e4, 1.d4, o Sistema Londres e respostas sólidas com as pretas.",
+          "href": "/guide/rochess-best-opening-moves"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guia de quebra-cabeças do RoChess",
+          "description": "Use uma lista de verificação repetível para xeques, capturas, garfos, cravadas e padrões de mate.",
+          "href": "/guide/rochess-puzzle-guide"
+        },
+        {
+          "badge": "Guia",
+          "title": "Como vencer bots difíceis",
+          "description": "Avance pelos bots Iniciante, Intermediário, Avançado, Especialista e Mestre sem pular os fundamentos.",
+          "href": "/guide/rochess-how-to-beat-hard-bots"
+        },
+        {
+          "badge": "Modos",
+          "title": "Modos de jogo do RoChess",
+          "description": "Compare partidas ranqueadas, prática contra bots, quebra-cabeças, Bullet, Blitz e Rapid antes da sua próxima sessão.",
+          "href": "/modes/rochess-game-modes"
+        },
+        {
+          "badge": "Análise",
+          "title": "Barra de avaliação ao vivo",
+          "description": "Leia as mudanças de avaliação como um alarme de erros graves e combine-as com seu relatório de precisão pós-partida.",
+          "href": "/mechanics/rochess-live-evaluation-bar"
+        },
+        {
+          "badge": "Ranqueado",
+          "title": "Guia do modo ranqueado",
+          "description": "Entenda as mudanças de classificação, o emparelhamento, o jogo limpo, os controles de tempo e os hábitos que fazem você subir.",
+          "href": "/modes/rochess-ranked-mode"
+        },
+        {
+          "badge": "Estratégia",
+          "title": "Estratégias vencedoras",
+          "description": "Planeje a abertura, o meio-jogo, o final e a gestão do relógio que decidem as partidas de RoChess.",
+          "href": "/tips/rochess-winning-strategies"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é RoChess?",
+      "paragraphs": [
+        "RoChess é um jogo competitivo de xadrez on-line no Roblox criado pela 1 Elo Chess. Ele combina partidas ranqueadas contra jogadores reais e 19 oponentes de IA com nove controles de tempo, mais de 1.300 quebra-cabeças ranqueados e reconhecimento de mais de 3.800 aberturas.",
+        "Cada partida segue as regras padrão do xadrez e termina com uma análise de precisão que destaca lances fortes, erros e erros graves. Use os guias para escolher um controle de tempo, treinar aberturas e táticas, e transformar cada partida em um próximo passo claro."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedora",
+          "value": "1 Elo Chess"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Xadrez competitivo"
+        },
+        {
+          "label": "Visitas",
+          "value": "Mais de 3 M"
+        },
+        {
+          "label": "Oponentes de IA",
+          "value": "19"
+        },
+        {
+          "label": "Quebra-cabeças ranqueados",
+          "value": "Mais de 1.300"
+        },
+        {
+          "label": "Aberturas reconhecidas",
+          "value": "Mais de 3.800"
+        },
+        {
+          "label": "Controles de tempo",
+          "value": "9"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explore os guias do RoChess",
+      "description": "Mergulhe nos primeiros passos, códigos ativos, níveis de bots, modos de jogo, aberturas, quebra-cabeças, análise de partidas e classificações.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia do RoChess para iniciantes",
+          "description": "Aprenda a começar a jogar RoChess, escolher um bot fácil, entender o movimento das peças e melhorar com a prática. Siga um caminho gradual das regras básicas e táticas essenciais até oponentes mais fortes.",
+          "href": "/guide/rochess-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Conclua o tutorial e abra a Loja para encontrar a seção Códigos."
+            },
+            {
+              "label": "2",
+              "detail": "Resgate todos os códigos ativos antes de gastar Tokens em prática."
+            },
+            {
+              "label": "3",
+              "detail": "Jogue duas ou três partidas contra bots para aprender o tabuleiro e o relógio."
+            },
+            {
+              "label": "4",
+              "detail": "Resolva uma série curta de quebra-cabeças para aquecer a visão tática."
+            },
+            {
+              "label": "5",
+              "detail": "Comece a jogar partidas ranqueadas com um controle mais lento, no estilo Rapid."
+            },
+            {
+              "label": "6",
+              "detail": "Revise sua precisão e anote um erro recorrente."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Códigos do RoChess",
+          "description": "Confira os códigos de resgate atuais do RoChess e saiba exatamente onde inseri-los. A lista ativa separa cada código pela recompensa de Tokens para você resgatar o lote completo antes de uma sessão.",
+          "href": "/codes/rochess-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "SOYSLOPGAMES",
+              "detail": "3 Tokens de um código recente por uma conquista da comunidade"
+            },
+            {
+              "label": "CORDCODE",
+              "detail": "5 Tokens de um código de recompensa de nível intermediário"
+            },
+            {
+              "label": "1000LIKES",
+              "detail": "10 Tokens, o melhor valor de um único código da lista"
+            },
+            {
+              "label": "Loja",
+              "detail": "Resgate os códigos na Loja, dentro da seção Códigos"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de bots do RoChess",
+          "description": "Compare os 19 bots do RoChess entre os níveis Iniciante, Intermediário, Avançado, Especialista e Mestre. Use a escala para aprender segurança das peças, desenvolver um plano e melhorar o cálculo sem arriscar sua classificação.",
+          "href": "/mechanics/rochess-chess-bot",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Os bots Mestre exigem aberturas precisas, cálculo profundo e conversão impecável do final."
+            },
+            {
+              "label": "A",
+              "detail": "Os bots Especialista punem peças passivas e técnica fraca no final."
+            },
+            {
+              "label": "B",
+              "detail": "Os bots Avançado punem descuidos táticos de um lance."
+            },
+            {
+              "label": "C",
+              "detail": "Os bots Iniciante e Intermediário ensinam segurança das peças, desenvolvimento e controle do centro."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Modos de jogo do RoChess",
+          "description": "Compare os nove controles de tempo do RoChess, partidas ranqueadas, prática contra bots e modo de quebra-cabeças. Escolha um ritmo que dê tempo para calcular ou que afie os reflexos que você quer treinar.",
+          "href": "/modes/rochess-game-modes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Bullet",
+              "detail": "O controle mais rápido para memória de padrões, pré-lances e atenção à queda de bandeira"
+            },
+            {
+              "label": "Blitz",
+              "detail": "O meio-termo rápido para cálculo veloz e gestão de tempo"
+            },
+            {
+              "label": "Rapid",
+              "detail": "Jogo pensado para aberturas, planos e técnica de final"
+            },
+            {
+              "label": "Quebra-cabeças",
+              "detail": "Treino tático sem cronômetro com mais de 1.300 posições ranqueadas"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guia de aberturas do RoChess",
+          "description": "Aprenda os princípios por trás dos melhores lances de abertura do RoChess e como o jogo reconhece mais de 3.800 aberturas. Cubra controle do centro, desenvolvimento das peças, segurança do rei e armadilhas comuns.",
+          "href": "/guide/rochess-best-opening-moves",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Centro",
+              "detail": "Controle as casas centrais cedo com peões e peças."
+            },
+            {
+              "label": "Desenvolvimento",
+              "detail": "Coloque cavalos e bispos em jogo antes de lançar um ataque."
+            },
+            {
+              "label": "Roque",
+              "detail": "Proteja o rei e conecte as torres na abertura."
+            },
+            {
+              "label": "Armadilhas",
+              "detail": "Conheça as armadilhas de abertura comuns e evite perseguir táticas precipitadas."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia de quebra-cabeças do RoChess",
+          "description": "Use a coleção de quebra-cabeças do RoChess para praticar padrões táticos e afiar o cálculo. Crie uma lista de verificação repetível com xeques, capturas, garfos, cravadas, raios X e redes de mate.",
+          "href": "/guide/rochess-puzzle-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Mates",
+              "detail": "Pratique padrões de mate e conte todas as casas de fuga."
+            },
+            {
+              "label": "Garfos",
+              "detail": "Procure xeques que ataquem duas peças ao mesmo tempo."
+            },
+            {
+              "label": "Cravadas",
+              "detail": "Use peças de linha para imobilizar defensores valiosos."
+            },
+            {
+              "label": "Raios X",
+              "detail": "Ataque uma peça valiosa e capture a peça atrás dela."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Análise de partidas do RoChess",
+          "description": "Transforme cada partida concluída em uma lição com o relatório de precisão do RoChess e a barra de avaliação ao vivo. Identifique lances fortes, erros e erros graves, e escolha uma correção para a próxima sessão.",
+          "href": "/mechanics/rochess-live-evaluation-bar",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Abra o relatório de precisão pós-partida antes de começar outra partida."
+            },
+            {
+              "label": "2",
+              "detail": "Verifique a fase de abertura para ver se seu primeiro plano se sustentou."
+            },
+            {
+              "label": "3",
+              "detail": "Revise as mudanças do meio-jogo e identifique lances forçados perdidos."
+            },
+            {
+              "label": "4",
+              "detail": "Encontre erros no final e pratique a conversão de posições vencedoras."
+            },
+            {
+              "label": "5",
+              "detail": "Guarde um erro recorrente como foco para sua próxima sessão."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Classificações do RoChess",
+          "description": "Acompanhe as classificações de Bullet, Blitz, Rapid e Quebra-cabeças e use cada ranking para medir uma habilidade diferente. Crie uma rotina que transforme mudanças de classificação em feedback útil, em vez de adivinhação.",
+          "href": "/modes/rochess-ranked-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bullet",
+              "detail": "A escala mais rápida recompensa memória de padrões e técnica para jogar com pouco tempo."
+            },
+            {
+              "label": "Blitz",
+              "detail": "A escala equilibrada testa cálculo rápido e gestão de tempo."
+            },
+            {
+              "label": "Rapid",
+              "detail": "A escala mais lenta recompensa profundidade de cálculo, aberturas e finais."
+            },
+            {
+              "label": "Quebra-cabeças",
+              "detail": "A classificação individual mede visão tática e reconhecimento de padrões."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre RoChess",
+      "description": "Respostas diretas sobre controles de tempo, códigos, bots, quebra-cabeças e análise de partidas do RoChess.",
+      "items": [
+        {
+          "question": "O que é RoChess?",
+          "answer": "RoChess é um jogo competitivo de xadrez on-line no Roblox criado pela 1 Elo Chess. Ele oferece partidas ranqueadas contra jogadores e 19 oponentes de IA, nove controles de tempo, mais de 1.300 quebra-cabeças ranqueados e reconhecimento de mais de 3.800 aberturas."
+        },
+        {
+          "question": "RoChess é gratuito?",
+          "answer": "Sim. Partidas ranqueadas, prática contra bots e quebra-cabeças estão disponíveis sem gastar Robux. Passes de jogo opcionais adicionam comodidades como análise ampliada, acesso VIP ou bots extras."
+        },
+        {
+          "question": "Qual controle de tempo do RoChess os iniciantes devem usar?",
+          "answer": "Comece com Rapid. O relógio mais lento dá tempo para verificar capturas, ameaças e a segurança do rei; passe para Blitz quando sua precisão ficar consistente e trate Bullet como um exercício curto de reflexos."
+        },
+        {
+          "question": "Como funcionam os códigos do RoChess?",
+          "answer": "Abra a Loja, vá para a seção Códigos e insira cada código exatamente como escrito. Os códigos atuais são SOYSLOPGAMES para 3 Tokens, CORDCODE para 5 Tokens e 1000LIKES para 10 Tokens."
+        },
+        {
+          "question": "Contra o que posso praticar com os bots do RoChess?",
+          "answer": "RoChess inclui 19 bots nos níveis Iniciante, Intermediário, Avançado, Especialista e Mestre. Use os níveis mais fáceis para aprender segurança das peças e suba apenas quando vencer com consistência sem entregar material."
+        },
+        {
+          "question": "Como funciona a análise de partidas no RoChess?",
+          "answer": "Após uma partida, RoChess mostra uma pontuação de precisão e uma análise que destaca lances fortes, erros e erros graves. Use a barra de avaliação ao vivo durante o jogo para perceber oscilações e revise essas posições depois."
+        },
+        {
+          "question": "Os códigos do RoChess expiram?",
+          "answer": "Os códigos podem expirar sem aviso quando conquistas e eventos terminam. Resgate novos códigos logo depois que aparecerem e confira a página de Códigos para ver a lista ativa atual."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para melhorar seu xadrez?",
+      "description": "Domine partidas ranqueadas, quebra-cabeças táticos, teoria de aberturas e análise de lances com nossos guias do RoChess criados pela comunidade.",
+      "primary": "Ler o guia para iniciantes",
+      "secondary": "Jogar RoChess no Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guias do RoChess para iniciantes",
+    "overviewDescription": "Aprenda como o RoChess funciona com guias para iniciantes sobre controles de tempo, Tokens, quebra-cabeças, aberturas e o caminho mais rápido da primeira partida até uma vitória ranqueada."
+  },
+  "codes": {
+    "overviewTitle": "Códigos do RoChess",
+    "overviewDescription": "Encontre códigos ativos do RoChess, saiba onde resgatá-los na Loja e acompanhe recompensas de Tokens para conseguir mais quebra-cabeças e prática contra bots."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas do RoChess",
+    "overviewDescription": "Entenda os bots, o motor Stockfish, a barra de avaliação ao vivo, o Instant Rush e os sistemas de classificação que moldam cada partida de RoChess."
+  },
+  "controls": {
+    "overviewTitle": "Controles do RoChess",
+    "overviewDescription": "Domine os controles do RoChess no PC, celular e console com guias claros sobre entrada de lances, câmera e navegação do tabuleiro."
+  },
+  "modes": {
+    "overviewTitle": "Modos de jogo do RoChess",
+    "overviewDescription": "Compare os modos ranqueado, multijogador, de prática e de quebra-cabeças, incluindo controles de tempo e o melhor modo para cada tipo de jogador."
+  },
+  "community": {
+    "overviewTitle": "Comunidade do RoChess",
+    "overviewDescription": "Acompanhe as atualizações do RoChess, novos recursos, conversas no Discord e Reddit, e os recursos da comunidade que mantêm o jogo em movimento."
+  },
+  "tips": {
+    "overviewTitle": "Dicas de estratégia do RoChess",
+    "overviewDescription": "Melhore sua classificação no RoChess com conselhos práticos para evitar erros graves, dominar táticas de mate, finais e estratégias vencedoras."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "activeCodes": "Códigos ativos",
+    "redeemInShop": "Resgatar na Loja",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leituras relacionadas",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "RoChess Wiki",
+    "about": "RoChess Wiki é um centro de guias independente feito por fãs, com partidas ranqueadas, quebra-cabeças de xadrez, aberturas, oponentes de IA, análise de lances e estratégia para iniciantes de todos os níveis.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Jurídico",
+    "copyright": "2026 RoChess Wiki. Não é afiliada à 1 Elo Chess nem à Roblox.",
+    "description": "Xadrez competitivo grátis no Roblox com partidas ranqueadas, mais de 1.300 quebra-cabeças e 19 oponentes de IA.",
+    "playGame": "Jogar RoChess no Roblox",
+    "officialDiscord": "Grupo da comunidade RoChess",
+    "officialYoutube": "Vídeo de jogo do RoChess",
+    "openingGuides": "Guias de aberturas e táticas",
+    "beginnerGuide": "Guia para iniciantes",
+    "gameModes": "Modos de jogo",
+    "mechanicsGuides": "Bots e mecânicas",
+    "strategyTips": "Dicas de estratégia",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O guia que você procura pode ter sido movido ou ainda não foi adicionado.",
+    "browse": "Ver guias para iniciantes"
+  }
+}

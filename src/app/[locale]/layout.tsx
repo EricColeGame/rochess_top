@@ -20,17 +20,19 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  const resolvedLocale = hasLocale(routing.locales, locale) ? locale : routing.defaultLocale;
+  const messages = (await getMessages({ locale: resolvedLocale })) as { site: { name: string; description: string } };
   const image = `${siteUrl}/images/hero.webp`;
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    applicationName: "RoChess Wiki",
-    title: { default: "RoChess Wiki", template: "%s" },
-    description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.",
+    applicationName: messages.site.name,
+    title: { default: messages.site.name, template: "%s" },
+    description: messages.site.description,
     manifest: "/manifest.json",
     icons: { icon: [{ url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" }, { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }], apple: "/apple-touch-icon.png" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "RoChess Wiki", description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.", images: [{ url: image, width: 1280, height: 720, alt: "RoChess Wiki" }] },
-    twitter: { card: "summary_large_image", title: "RoChess Wiki", description: "Explore RoChess guides for chess puzzles, opening strategies, AI opponents, rated matches, move analysis, and beginner tips. Improve your skills and climb the leaderboards.", images: [image] },
+    openGraph: { type: "website", locale: resolvedLocale, url: siteUrl, siteName: siteConfig.name, title: messages.site.name, description: messages.site.description, images: [{ url: image, width: 1280, height: 720, alt: messages.site.name }] },
+    twitter: { card: "summary_large_image", title: messages.site.name, description: messages.site.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }

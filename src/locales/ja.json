@@ -1,1 +1,508 @@
-{}
+{
+  "site": {
+    "name": "RoChess Wiki",
+    "shortName": "RoChess",
+    "tagline": "チェスガイド、序盤、パズル、戦略",
+    "description": "RoChessのチェスパズル、序盤戦略、AI対戦相手、レーティング戦、指し手分析、初心者向けのヒントを紹介するガイドを探索しましょう。スキルを磨いてリーダーボードを駆け上がりましょう。",
+    "legalNotice": "非公式のファンウィキです。プレイヤーによる、プレイヤーのためのサイトです。Robloxおよび1 Elo Chessとは提携していません。"
+  },
+  "nav": {
+    "guide": "ガイド",
+    "codes": "コード",
+    "mechanics": "メカニクス",
+    "controls": "操作方法",
+    "modes": "モード",
+    "community": "コミュニティ",
+    "tips": "ヒント",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替える"
+  },
+  "home": {
+    "meta": {
+      "title": "RoChess Wiki：パズル、序盤、チェス戦略",
+      "description": "RoChessのチェスパズル、序盤戦略、AI対戦相手、レーティング戦、指し手分析、初心者向けのヒントを紹介するガイドを探索しましょう。スキルを磨いてリーダーボードを駆け上がりましょう。"
+    },
+    "hero": {
+      "eyebrow": "ファンによるコミュニティウィキ",
+      "title": "RoChess Wiki",
+      "description": "RoChessのレーティング戦、序盤戦略、チェスパズル、AI対戦相手、指し手分析、初心者向けのヒントを紹介するガイドを探索しましょう。ルールを学び、精度を高め、リーダーボードを駆け上がりましょう。",
+      "stats": [
+        "総訪問数300万以上",
+        "レーティングパズル1,300以上",
+        "AI対戦相手19体",
+        "認識される序盤3,800以上"
+      ],
+      "primaryCta": "RobloxでRoChessをプレイ",
+      "secondaryCta": "初心者ガイド",
+      "tertiaryCta": "ゲームモードとパズル",
+      "videoLabel": "RoChessのゲームプレイ紹介"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて見る"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "RoChessの歩み",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初のセッションで行うことを学び、時間制限を選び、トークンを貯めて、レーティングを着実に上げる練習サイクルを作りましょう。"
+        },
+        {
+          "number": "2",
+          "title": "すべてのコード",
+          "description": "有効なRoChessコードをすべて引き換えて無料トークンを獲得し、レーティング戦に挑む前にパズルやボット戦で使いましょう。"
+        },
+        {
+          "number": "3",
+          "title": "序盤ガイド",
+          "description": "1.e4、1.d4、ロンドンシステム、そして黒番の堅実な応手を使い、最初の8手で信頼できる計画を立てましょう。"
+        },
+        {
+          "number": "4",
+          "title": "パズルトレーニング",
+          "description": "1,300以上のレーティングパズルで、チェック、駒の取り合い、フォーク、ピン、チェックメイトのパターンを練習しましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "注目のRoChessガイド",
+      "quickLinks": [
+        "初心者ガイド",
+        "RoChessコード",
+        "序盤の指し手",
+        "パズルトレーニング"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "RoChess初心者ガイド",
+          "description": "最初のセッションの流れ、時間制限、トークン、パズル、そして安定したレーティングを築く習慣を学びましょう。",
+          "href": "/guide/rochess-beginner-guide"
+        },
+        {
+          "badge": "更新済み",
+          "title": "RoChessコード",
+          "description": "SOYSLOPGAMES、CORDCODE、1000LIKESを引き換えて18トークンを獲得し、練習に使いましょう。",
+          "href": "/codes/rochess-codes"
+        },
+        {
+          "badge": "人気",
+          "title": "序盤の最善手",
+          "description": "1.e4、1.d4、ロンドンシステム、黒番の堅実な応手で、最初の8手を確実に組み立てましょう。",
+          "href": "/guide/rochess-best-opening-moves"
+        },
+        {
+          "badge": "人気",
+          "title": "RoChessパズルガイド",
+          "description": "チェック、駒の取り合い、フォーク、ピン、チェックメイトのパターンに使える反復可能なチェックリストを身につけましょう。",
+          "href": "/guide/rochess-puzzle-guide"
+        },
+        {
+          "badge": "ガイド",
+          "title": "強いボットに勝つ方法",
+          "description": "基本を飛ばさずに、初級、中級、上級、エキスパート、マスターのボットを順に攻略しましょう。",
+          "href": "/guide/rochess-how-to-beat-hard-bots"
+        },
+        {
+          "badge": "モード",
+          "title": "RoChessのゲームモード",
+          "description": "次のセッションの前に、レーティング戦、ボット練習、パズル、Bullet、Blitz、Rapidを比較しましょう。",
+          "href": "/modes/rochess-game-modes"
+        },
+        {
+          "badge": "分析",
+          "title": "ライブ評価バー",
+          "description": "評価の変動を悪手の警報として読み取り、対局後の精度レポートと組み合わせましょう。",
+          "href": "/mechanics/rochess-live-evaluation-bar"
+        },
+        {
+          "badge": "レーティング",
+          "title": "レーティングモードガイド",
+          "description": "レーティングの変動、マッチメイキング、フェアプレー、時間制限、そして上昇につながる習慣を理解しましょう。",
+          "href": "/modes/rochess-ranked-mode"
+        },
+        {
+          "badge": "戦略",
+          "title": "勝利につながる戦略",
+          "description": "RoChessの対局を左右する序盤、中盤、終盤、そして時間管理を計画しましょう。",
+          "href": "/tips/rochess-winning-strategies"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "RoChessとは？",
+      "paragraphs": [
+        "RoChessは1 Elo Chessが制作したRobloxの競技型オンラインチェスゲームです。実プレイヤーとのレーティング戦と19体のAI対戦相手に、9種類の時間制限、1,300以上のレーティングパズル、3,800以上の序盤認識を組み合わせています。",
+        "すべての対局は標準的なチェスのルールに従い、好手、ミス、悪手を強調する精度レビューで終わります。ガイドを使って時間制限を選び、序盤と戦術を練習し、毎回の対局を明確な次のステップにつなげましょう。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "1 Elo Chess"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Roblox"
+        },
+        {
+          "label": "ジャンル",
+          "value": "競技チェス"
+        },
+        {
+          "label": "訪問数",
+          "value": "300万以上"
+        },
+        {
+          "label": "AI対戦相手",
+          "value": "19"
+        },
+        {
+          "label": "レーティングパズル",
+          "value": "1,300以上"
+        },
+        {
+          "label": "認識される序盤",
+          "value": "3,800以上"
+        },
+        {
+          "label": "時間制限",
+          "value": "9"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "RoChessガイドを探索",
+      "description": "初心者向けの手順、有効なコード、ボットの階層、ゲームモード、序盤、パズル、対局レビュー、リーダーボードを詳しく学びましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "RoChess初心者ガイド",
+          "description": "RoChessの始め方、易しいボットの選び方、チェス駒の動きを学び、練習を通して上達しましょう。基本ルールと重要な戦術から、より強い相手へと段階的に進みます。",
+          "href": "/guide/rochess-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "チュートリアルを完了し、ショップのコードセクションを開きます。"
+            },
+            {
+              "label": "2",
+              "detail": "練習にトークンを使う前に、有効なコードをすべて引き換えます。"
+            },
+            {
+              "label": "3",
+              "detail": "ボットと2、3局対局し、盤面と時計に慣れます。"
+            },
+            {
+              "label": "4",
+              "detail": "短いパズルセットを解いて、戦術的な視野をウォームアップします。"
+            },
+            {
+              "label": "5",
+              "detail": "Rapid寄りのゆっくりした時間制限でレーティング戦を始めます。"
+            },
+            {
+              "label": "6",
+              "detail": "精度を振り返り、繰り返しているミスを1つ記録します。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "RoChessコード",
+          "description": "現在のRoChess引き換えコードを確認し、入力場所を正確に学びましょう。有効なリストでは各コードをトークン報酬ごとに分けているので、セッション前にまとめて受け取れます。",
+          "href": "/codes/rochess-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "SOYSLOPGAMES",
+              "detail": "最近のコミュニティ達成記念コードで3トークン"
+            },
+            {
+              "label": "CORDCODE",
+              "detail": "中級報酬コードで5トークン"
+            },
+            {
+              "label": "1000LIKES",
+              "detail": "10トークン。リスト内で単一コード最高の価値"
+            },
+            {
+              "label": "ショップ",
+              "detail": "ショップ内のコードセクションで引き換えます"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "RoChessボットガイド",
+          "description": "初級、中級、上級、エキスパート、マスターの各階層にわたる19体のRoChessボットを比較しましょう。はしごを使って駒の安全、計画の立て方、計算力を、レーティングを危険にさらさずに身につけます。",
+          "href": "/mechanics/rochess-chess-bot",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "マスターボットは正確な序盤、深い計算、終盤の確実な勝ち切りを要求します。"
+            },
+            {
+              "label": "A",
+              "detail": "エキスパートボットは受け身の駒と弱い終盤技術を罰します。"
+            },
+            {
+              "label": "B",
+              "detail": "上級ボットは一手の戦術的見落としを罰します。"
+            },
+            {
+              "label": "C",
+              "detail": "初級と中級のボットは駒の安全、展開、中央の支配を教えます。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "RoChessのゲームモード",
+          "description": "RoChessの9種類の時間制限、レーティング戦、ボット練習、パズルモードを比較しましょう。計算する時間を確保できるペース、または鍛えたい反射神経を鋭くするペースを選びます。",
+          "href": "/modes/rochess-game-modes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Bullet",
+              "detail": "パターンの記憶、プリムーブ、時間切れへの意識を鍛える最速の制限"
+            },
+            {
+              "label": "Blitz",
+              "detail": "素早い計算と時間管理を試す高速な中間設定"
+            },
+            {
+              "label": "Rapid",
+              "detail": "序盤、計画、終盤技術をじっくり考えるプレー"
+            },
+            {
+              "label": "パズル",
+              "detail": "1,300以上のレーティング局面を使った時間無制限の戦術トレーニング"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "RoChess序盤ガイド",
+          "description": "RoChessの最善の序盤手の原則と、ゲームが3,800以上の序盤をどう認識するかを学びましょう。中央の支配、駒の展開、王の安全、よくある罠を扱います。",
+          "href": "/guide/rochess-best-opening-moves",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "中央",
+              "detail": "ポーンと駒で早めに中央のマスを支配します。"
+            },
+            {
+              "label": "展開",
+              "detail": "攻撃を始める前にナイトとビショップを展開します。"
+            },
+            {
+              "label": "キャスリング",
+              "detail": "序盤で王を守り、ルークをつなげます。"
+            },
+            {
+              "label": "罠",
+              "detail": "よくある序盤の罠を知り、早すぎる戦術を追わないようにします。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "RoChessパズルガイド",
+          "description": "RoChessのパズルコレクションで戦術パターンを練習し、計算を鋭くしましょう。チェック、駒の取り合い、フォーク、ピン、スキュア、メイトネットを中心に、反復可能な解決チェックリストを作ります。",
+          "href": "/guide/rochess-puzzle-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "メイト",
+              "detail": "チェックメイトのパターンを練習し、すべての逃げマスを数えます。"
+            },
+            {
+              "label": "フォーク",
+              "detail": "2つの駒を同時に攻撃するチェックを探します。"
+            },
+            {
+              "label": "ピン",
+              "detail": "ライン上の駒で価値の高い守り駒を動けなくします。"
+            },
+            {
+              "label": "スキュア",
+              "detail": "価値の高い駒を攻撃し、その後ろの駒を取ります。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "RoChess対局レビュー",
+          "description": "RoChessの精度レポートとライブ評価バーで、終わった対局をすべて学びに変えましょう。好手、ミス、悪手を特定し、次のセッションで直す点を1つ選びます。",
+          "href": "/mechanics/rochess-live-evaluation-bar",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "次の対局を始める前に、対局後の精度レポートを開きます。"
+            },
+            {
+              "label": "2",
+              "detail": "序盤段階を確認し、最初の計画が通用したかを見ます。"
+            },
+            {
+              "label": "3",
+              "detail": "中盤の形勢変化を振り返り、見逃した強制手を特定します。"
+            },
+            {
+              "label": "4",
+              "detail": "終盤の悪手を見つけ、勝ち局面を勝ち切る練習をします。"
+            },
+            {
+              "label": "5",
+              "detail": "繰り返すミスを1つ保存し、次のセッションの焦点にします。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "RoChessリーダーボード",
+          "description": "Bullet、Blitz、Rapid、パズルのリーダーボードを追い、それぞれの順位で異なるスキルを測りましょう。レーティングの変化を当て推量ではなく有益なフィードバックに変える習慣を作ります。",
+          "href": "/modes/rochess-ranked-mode",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bullet",
+              "detail": "最速のはしごではパターンの記憶と時間切れ間際の技術が報われます。"
+            },
+            {
+              "label": "Blitz",
+              "detail": "バランスのはしごでは素早い計算と時間管理が試されます。"
+            },
+            {
+              "label": "Rapid",
+              "detail": "ゆっくりしたはしごでは計算の深さ、序盤、終盤が報われます。"
+            },
+            {
+              "label": "パズル",
+              "detail": "ソロの順位は戦術的な視野とパターン認識を測ります。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "RoChessよくある質問",
+      "description": "RoChessの時間制限、コード、ボット、パズル、対局レビューについて簡潔に答えます。",
+      "items": [
+        {
+          "question": "RoChessとは何ですか？",
+          "answer": "RoChessは1 Elo Chessが制作したRobloxの競技型オンラインチェスゲームです。プレイヤーとのレーティング戦と19体のAI対戦相手、9種類の時間制限、1,300以上のレーティングパズル、3,800以上の序盤認識を提供します。"
+        },
+        {
+          "question": "RoChessは無料で遊べますか？",
+          "answer": "はい。レーティング戦、ボット練習、パズルはRobuxを使わずに利用できます。任意のゲームパスでは、拡張対局レビュー、VIPアクセス、追加ボットなどの便利な機能が追加されます。"
+        },
+        {
+          "question": "初心者はRoChessのどの時間制限を使うべきですか？",
+          "answer": "Rapidから始めましょう。ゆっくりした時計なら、駒の取り合い、脅威、王の安全を確認できます。精度が安定したらBlitzに移り、Bulletは短い反射神経の練習として扱いましょう。"
+        },
+        {
+          "question": "RoChessのコードはどう使いますか？",
+          "answer": "ショップを開き、コードセクションに切り替えて、各コードを正確に入力します。現在のコードはSOYSLOPGAMESが3トークン、CORDCODEが5トークン、1000LIKESが10トークンです。"
+        },
+        {
+          "question": "RoChessのボット相手に何を練習できますか？",
+          "answer": "RoChessには初級、中級、上級、エキスパート、マスターの各階層に19体のボットがいます。易しい階層で駒の安全を学び、材料をタダで渡さず安定して勝てるようになってから上へ進みましょう。"
+        },
+        {
+          "question": "RoChessの対局レビューはどう機能しますか？",
+          "answer": "対局後、RoChessは精度スコアと、好手、ミス、悪手を強調する分析を表示します。対局中はライブ評価バーで形勢の変動に気づき、後からその局面を振り返りましょう。"
+        },
+        {
+          "question": "RoChessのコードに期限はありますか？",
+          "answer": "マイルストーンやイベントの終了に伴い、コードは通知なく期限切れになることがあります。新しいコードが登場したら早めに引き換え、コードページで現在有効なリストを確認しましょう。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "チェスを上達する準備はできましたか？",
+      "description": "コミュニティが作ったRoChessガイドで、レーティング戦、戦術パズル、序盤理論、指し手分析をマスターしましょう。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "RobloxでRoChessをプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "RoChess初心者ガイド",
+    "overviewDescription": "時間制限、トークン、パズル、序盤を扱う初心者向け解説でRoChessの仕組みを学び、初対局からレーティング勝利までの最短ルートを確認しましょう。"
+  },
+  "codes": {
+    "overviewTitle": "RoChessコード",
+    "overviewDescription": "有効なRoChessコードを見つけ、ショップでの引き換え方法を学び、パズルやボット練習に使えるトークン報酬を確認しましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "RoChessメカニクス",
+    "overviewDescription": "すべてのRoChess対局を形作るボット、Stockfishエンジン、ライブ評価バー、Instant Rush、レーティングシステムを理解しましょう。"
+  },
+  "controls": {
+    "overviewTitle": "RoChessの操作方法",
+    "overviewDescription": "PC、モバイル、コンソールでのRoChessの操作方法を、指し手入力、カメラ、盤面移動のわかりやすいガイドでマスターしましょう。"
+  },
+  "modes": {
+    "overviewTitle": "RoChessのゲームモード",
+    "overviewDescription": "レーティング、マルチプレイヤー、練習、パズルの各モードを比較し、時間制限やプレイヤータイプ別の最適なモードを確認しましょう。"
+  },
+  "community": {
+    "overviewTitle": "RoChessコミュニティ",
+    "overviewDescription": "RoChessのアップデート、新機能、DiscordやRedditでの議論、ゲームを支えるコミュニティリソースを追いましょう。"
+  },
+  "tips": {
+    "overviewTitle": "RoChess戦略のヒント",
+    "overviewDescription": "悪手を避ける方法、チェックメイトの戦術、終盤、勝利につながる戦略についての実践的なアドバイスでRoChessのレーティングを上げましょう。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "redeemInShop": "ショップで引き換える",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクション内",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "利用できるガイドはまだありません。しばらくしてからもう一度ご確認ください。"
+  },
+  "footer": {
+    "aboutTitle": "RoChess Wiki",
+    "about": "RoChess Wikiは、あらゆるレベルのプレイヤー向けに、レーティング戦、チェスパズル、序盤、AI対戦相手、指し手分析、初心者向け戦略を扱う独立したファン制作のガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 RoChess Wiki。1 Elo ChessおよびRobloxとは提携していません。",
+    "description": "Robloxで無料で遊べる競技チェス。レーティング戦、1,300以上のパズル、19体のAI対戦相手を備えています。",
+    "playGame": "RobloxでRoChessをプレイ",
+    "officialDiscord": "RoChessコミュニティグループ",
+    "officialYoutube": "RoChessゲームプレイ動画",
+    "openingGuides": "序盤と戦術のガイド",
+    "beginnerGuide": "初心者ガイド",
+    "gameModes": "ゲームモード",
+    "mechanicsGuides": "ボットとメカニクス",
+    "strategyTips": "戦略のヒント",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのガイドは移動したか、まだ追加されていない可能性があります。",
+    "browse": "初心者ガイドを見る"
+  }
+}
